@@ -1,4 +1,5 @@
 # ===============================================================================
+# Copyright (C) 2018 Herman van Hazendonk <github.com@herrie.org>
 # Copyright (C) 2015 Thibaud Gaillard <thibaud.gaillard@gmail.com>
 # Copyright (C) 2015 WebOS Internals <support@webos-internals.org>
 #
@@ -17,7 +18,7 @@
 # ===============================================================================
 
 NAME = openssl
-VERSION = 0.9.8zg
+VERSION = 1.1.1a
 
 DEPENDS =
 
