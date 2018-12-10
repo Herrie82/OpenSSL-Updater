@@ -1,19 +1,20 @@
 {
   "title": "OpenSSL Updater",
   "id": "org.webosinternals.openssl-updater",
-  "version": "0.9.8-6",
-  "vendor": "WebOS Internals <support@webos-internals.org>, Thibaud Gaillard <thibaud.gaillard@gmail.com>",
-
+  "version": "1.1.1-1",
+  "vendor": "WebOS Internals <support@webos-internals.org>, Thibaud Gaillard <thibaud.gaillard@gmail.com>, Herman van Hazendonk <github.com@herrie.org>",
   "type": "web",
   "main": "index.html",
   "icon": "icon.png",
   "splashicon": "icon_splash.png",
   "noWindow": true,
   "uiRevision": 2,
-
-  "message": "OpenSSL-Updater brings the latest OpenSSL 0.9.8 release to your webOS smartphone/tablet, directly patching the system binaries (not to be confused with optware version that gets installed in /opt).</b><br/><br/>Simply uninstall this application to return your device to its original, unpatched state.<br><br><b>A system reboot is required after installation/removal, as running programs will see their OpenSSL dynamic libraries change (and most certainly crash). This is automagically performed by the end of the installation process.",
+  "message": "OpenSSL-Updater brings the latest OpenSSL 1.1.1 release to your webOS smartphone/tablet, directly patching the system binaries (not to be confused with optware version that gets installed in /opt).</b><br/><br/>Simply uninstall this application to return your device to its original, unpatched state.<br><br><b>A system reboot is required after installation/removal, as running programs will see their OpenSSL dynamic libraries change (and most certainly crash). This is automagically performed by the end of the installation process.",
 
   "changeLog": [
+    { "version" : "1.1.1-1",
+      "log" : [ "First attempt to update to 1.1.1a" ]
+    },
     { "version" : "0.9.8-6",
       "log" : [ "Reset error indicator in post-install script when MD5 sum checks have failed and FORCE_INSTALL=1, or the backup operation will just stupidly fail..." ]
     },
@@ -33,6 +34,6 @@
     },
     { "version" : "0.9.8-1",
       "log" : [ "Original OpenSSL release for webOS 1.4.x devices (OpenSSL 0.9.8j 07 Jan 2009), for future investigation work in case of missing/unpublished Palm patch" ]
-    },
+    }
   ]
 }
