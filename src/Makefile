@@ -80,7 +80,7 @@ RANLIB = $(CROSS_COMPILE)ranlib
 
 # A remnant of the past...
 #
-SB2 = CC="$(CC)" AR="$(AR)" RANLIB="$(RANLIB)"
+# SB2 = CC="$(CC)" AR="$(AR)" RANLIB="$(RANLIB)"
 
 
 ifneq (,$(DEBUG))
